@@ -85,3 +85,5 @@ As dependências estão listadas no arquivo requirements.txt. Certifique-se de i
 ### Referências
 Fruits 360 Dataset no Kaggle
 Documentação do TensorFlow: tensorflow.org
+
+### Projeto desenvolvido por Davi Tunussi como parte do desafio TCX 2025.
