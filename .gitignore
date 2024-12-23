@@ -1,0 +1,18 @@
+# Ignorar ambientes virtuais
+venv/
+.env/
+
+# Ignorar arquivos de compilação do Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+
+TCX-2025-Classificacao-Imagens/
+
+# Ignorar diretórios ou backups desnecessários
+.gitignore_file_backup/
