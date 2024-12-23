@@ -59,13 +59,18 @@ python src/train.py
 ### 4. Realizar Predições
 Para realizar a predição, execute:
 python src/predict.py
+
 O programa solicitará o caminho de uma imagem para análise.
 
 ### Exemplo de Saída:
 Classe prevista: maçã
+
 Probabilidades:
+
   maçã: 99.82%
+  
   banana: 0.10%
+  
   laranja: 0.08%
 
 ### Requisitos Técnicos
