@@ -8,10 +8,30 @@ Este projeto implementa uma rede neural para classificar imagens de frutas (maç
 - **Predição**: Capacidade de prever a classe de uma imagem fornecida pelo usuário.
 
 ## Estrutura do Projeto
+
 A estrutura de diretórios do projeto está organizada da seguinte maneira:
 
-```PROJETO_2_TCX_Rede_Neural/ ├── src/ # Scripts do projeto │ ├── init.py # Define src como um pacote Python │ ├── balance_dataset.py # Script para balancear o dataset │ ├── model.py # Script para criar o modelo │ ├── predict.py # Script para realizar a predição │ ├── preprocess.py # Script para carregar e pré-processar as imagens │ ├── train.py # Script para treinar o modelo │ ├── fruit_classifier.h5 │ └── fruit_classifier.keras ├── data/ # Dataset original │ ├── train/ # Conjunto de treino │ └── test/ # Conjunto de teste ├── data_balanced/ # Dataset balanceado │ ├── train/ # Conjunto de treino balanceado │ └── test/ # Conjunto de teste balanceado ├── README.md # Explicação do projeto ├── requirements.txt # Dependências do projeto ├── .gitignore # Arquivos ignorados pelo Git └── venv/ # Ambiente virtual Python```
-
+```plaintext
+PROJETO_2_TCX_Rede_Neural/
+├── src/                  # Scripts do projeto
+│   ├── __init__.py       # Define src como um pacote Python
+│   ├── balance_dataset.py # Script para balancear o dataset
+│   ├── model.py          # Script para criar o modelo
+│   ├── predict.py        # Script para realizar a predição
+│   ├── preprocess.py     # Script para carregar e pré-processar as imagens
+│   ├── train.py          # Script para treinar o modelo
+│   ├── fruit_classifier.h5
+│   └── fruit_classifier.keras
+├── data/                 # Dataset original
+│   ├── train/            # Conjunto de treino
+│   └── test/             # Conjunto de teste
+├── data_balanced/        # Dataset balanceado
+│   ├── train/            # Conjunto de treino balanceado
+│   └── test/             # Conjunto de teste balanceado
+├── README.md             # Explicação do projeto
+├── requirements.txt      # Dependências do projeto
+├── .gitignore            # Arquivos ignorados pelo Git
+└── venv/                 # Ambiente virtual Python
 
 ## Como Executar
 
