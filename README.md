@@ -32,7 +32,7 @@ PROJETO_2_TCX_Rede_Neural/
 ├── requirements.txt      # Dependências do projeto
 ├── .gitignore            # Arquivos ignorados pelo Git
 └── venv/                 # Ambiente virtual Python
-
+```
 ## Como Executar
 
 ### 1. Preparação do Ambiente
